@@ -9,7 +9,14 @@ header{
     background-color: green;
     border-radius: 20px;
 }
-
+.botoes{
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.botoes:hover{
+    color: black;
+}
 #conteudo_principal{
     margin-top: 10px;
     display: flex;
@@ -42,6 +49,19 @@ img{
 }
 ul{
     padding-left: 50px;
+    list-style-type: none;
+}
+.cursos{
+    background-color: green;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid;
+    padding: 10px;
+    margin-bottom: 5px;
+    transition: 0.3s;
+}
+.cursos:hover{
+    background-color: white;
 }
 #rodape{
     padding: 20px 0;
@@ -59,4 +79,8 @@ ul{
 }
 #img_logo{
     padding-left: 20px;
+}
+.menu{
+    color: black;
+    text-decoration: none;
 }
